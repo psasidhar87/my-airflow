@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - uses: /s3-sync-action@master
+    - uses: /s3-sync-action@main
       with:
         args: --acl private --follow-symlinks --delete --exclude '.git/*'
       env:
