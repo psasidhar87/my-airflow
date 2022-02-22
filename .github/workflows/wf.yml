@@ -3,7 +3,7 @@ name: CI for MWAA
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
